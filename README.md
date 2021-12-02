@@ -3,6 +3,7 @@
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 
+
 **How to start**
 
 Initizale the server: 
@@ -12,16 +13,24 @@ Initialize a client:
 $ ./client.elf  <IP> <PORT>
 $ <name>
 
+
 -----------------------------------------------------------------------------------------------------
+
 
 **Current features**
 
-After a name as been given we can send a message to all the other clients and receive as well.
-If we spend more than 1 minute without sending a message the server will attribute an AFK state. Every 5seconds the server checks every client's state. 
-If a client joins or leaves a message is sent to all the remaing clients by the server notifying them of that action.
+-> *Multiple clients allowed*.
+
+-> *Messagign between different clients*: After a name as been given we can send a message to all the other clients and receive as well.
+
+-> *AFK state*: If we spend more than 1 minute without sending a message the server will attribute an AFK state. Every 5seconds the server checks every client's state. 
+
+-> *Client's actions notifications*: If a client joins or leaves a message is sent to all the remaing clients by the server notifying them of that action.
+
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
+
 
 **Next step is:**
 
