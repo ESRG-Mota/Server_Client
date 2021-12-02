@@ -68,7 +68,7 @@ The server program only terminates when there's no more clients left.
 
 **Next step is:**
 
-	->  create a ./sendout <message>
+	-> create a ./sendout <message>
 	-> using a device driver turn on the green led when there's a new message and turn it off when a message is sent
 	-> make the AFK state change in the client and not by the server (SIGNALS maybe?)
 	-> create private channels with specific clients
